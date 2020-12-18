@@ -6,7 +6,7 @@
             "half-day":20,
             "full-day":30
             },
-            "walk-in": {
+            "walkins": {
              "half-day":25,
              "full-day":35
             }
