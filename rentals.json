@@ -3,8 +3,8 @@
         {
             "type": "~Honda Metro Scooter",
             "reservation":{ 
-            "half-day":20,
-            "full-day":30
+            "half":20,
+            "full":30
             },
             "walkins": {
              "half-day":25,
