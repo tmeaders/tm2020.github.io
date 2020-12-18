@@ -15,57 +15,57 @@
         {
           "type": "~Honda Dio Scooter",
           "reservation": {
-              "half-day":30,
-              "full-day":40
+              "half":30,
+              "full":40
           },
-          "walk-in":{
-              "half-day":35,
-              "full-day": 45
+          "walkins":{
+              "half":35,
+              "full": 45
 
           }
         },
         {
             "type": "~Honday PCX150 Scooter",
             "reservation":{
-                "half-day":40,
-                "full-day":50
+                "half":40,
+                "full":50
             },
-            "walk-in":{
-                "half-day":45,
-                "full-day":55
+            "walkins":{
+                "half":45,
+                "full":55
             }
         },
         {
             "type":"Honda Pioneer ATV",
             "reservation":{
-                "half-day":50,
-                "full-day":70
+                "half":50,
+                "full":70
             },
-            "walk-in":{
-                "half-day":60,
-                "full-day":80
+            "walkins":{
+                "half":60,
+                "full":80
             }
         },
         {
             "type":"Jeep Wrangler - 4 door with a/c",
             "reservation":{
-                "half-day":70,
-                "full-day":100
+                "half":70,
+                "full":100
             },
-            "walk-in":{
-                "half-day":85,
-                "full-day":125
+            "walkins":{
+                "half":85,
+                "full":125
             }
         }, 
         {
             "type":"Jeep Wrangler-2 door",
             "reservation":{
-                "half-day":60,
-                "full-day":85
+                "half":60,
+                "full":85
             },
-            "walk-in":{
-                "half-day":70,
-                "full-day":90
+            "walkins":{
+                "half":70,
+                "full":90
             }
         }
        
