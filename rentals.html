@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SCOOTS vaction rentals website">
+    <title>Scoots</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+        <picture class="logo">
+            <img src="images/scootslogo.jpg" alt="scoots logo" width="300">
+        </picture>
+        <section class="motto">
+            <h1 class="explore">Don't wait for the adventure to find you</h1>
+        </section>
+        <button onclick="toggleMenu();"> &#9776; </button>
+    </header>
+
+    <nav class="clearfix">
+
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a> </li>
+            <li class="active"><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h2>Two and four wheel rentals</h2>
+
+        <section class="scooterA">
+
+
+            <div>
+                <h3 id="type1"></h3>
+                <p class="rentalpage">Max persons : 1</p>
+                <h4>Reservations</h4>
+                <p>Half Day: <span id="rHalf1"></span></p>
+                <p>Full Day: <span id="rFull1"></span></p>
+                <h4>Walk Ins</h4>
+                <p>Half Day : <span id="wHalf1"></span> </p>
+                <p>Full Day : <span id="wFull1"></span> </p>
+            </div>
+            <img class="rentalpics" src="images/rentals-hdio.jpg" alt="honda dio" width="" height="">
+
+        </section>
+        <section class="scooterB">
+
+            <div>
+                <h3 id="type2"></h3>
+                <p class="rentalpage">Max Persons : 2</p>
+                <h4>Reservations</h4>
+                <p>Half Day : <span id="rHalf2"></span> </p>
+                <p>Full Day : <span id="rFull2"></span></p>
+                <h4>Walk Ins</h4>
+                <p>Half Day: <span id="wHalf2"></span></p>
+                <p>Full Day : <span id="wFull2"></span></p>
+            </div>
+            <img class="rentalpics" src="images/rental-twoseater.jpg" alt="handa two seater" width="" height="">
+        </section>
+        <section class="scooterC">
+
+
+            <div>
+                <h3 id="type3"></h3>
+                <p class="rentalpage">Max Persons : 2</p>
+                <h4>Reservations </h4>
+                <p>Half Day : <span id="rHalf3"></span> </p>
+
+                <p> Full Day: <span id="rFull3"></span> </p>
+
+                <h4>Walk Ins</h4>
+                <p>Half Day : <span id="wHalf3"></span></p>
+                <p>Full Day : <span id="wFull3"></span></p>
+            </div>
+            <img class="rentalpics" src="images/rentals-hmetro.jpg" alt="honda metro" width="" height="">
+
+        </section>
+        <section class="scooterD">
+
+
+
+            <div>
+                <h3 id="type4"></h3>
+                <p class="rentalpage">Max. Persons : 4</p>
+                <h4>Reservations</h4>
+                <p> Half Day : <span id="rHalf4"></span></p>
+                <p>Full Day: <span id="rFull4"></span></p>
+                <h4>Walk Ins</h4>
+                <p> Half Day : <span id="wHalf4"></span> </p>
+                <p> Full Day : <span id="wFull4"></span></p>
+            </div>
+            <img class="rentalpics" src="images/rentals-hpioneer.jpg" alt="honda pioneer" width="" height="">
+        </section>
+        <section class="scooterE">
+
+
+            <div>
+                <h3 id="type5"></h3>
+                <p class="rentalpage">Max. Persons : 5</p>
+                <h4>Reservations</h4>
+                <p>Half Day : <span id="rHalf5"></span></p>
+                <p> Full Day: <span id="rFull5"></span></p>
+                <h4>Walk Ins</h4>
+                <p> Half Day : <span id="wHalf5"></span></p>
+                <p> Full Day: <span id="wFull5"></span></p>
+            </div>
+            <img class="rentalpics" src="images/rentals-5pjeep.jpg" alt="jeep" width="" height="">
+        </section>
+        <section class="scooterF">
+
+
+            <div>
+                <h3 id="type6"></h3>
+                <p class="rentalpage">Max Persons : 4</p>
+                <h4>Reservations</h4>
+                <p>Half Day : <span id="rHalf6"></span></p>
+                <p> Full Day: <span id="rFull6"></span></p>
+                <h4>Walk Ins</h4>
+                <p>Half Day : <span id="wHalf6"></span></p>
+                <p>Full Day :<span id="wFull6"></span></p>
+            </div>
+            <img class="rentalpics" src="images/rentals-4pjeep.jpg" alt="jeep" width="" height="">
+
+        </section>
+
+
+
+
+    </main>
+    <footer>
+        <p class="year">
+            &copy; <span id="year"></span> | <span id="lastupdate"></span> | <span><a
+                    href="https://www.openweathermap.org">
+                    Weather Provided by openweathermap.org</a></span> | <span><a href="sources.html">Sources</a></span>
+    </footer>
+    <script src="js/rentals.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+/*-----------  All of the top of my webpage or header css will go below -----------*/
+
+/*------------           35em is also 560px when basefont is 16px       -----------*/
+@media only screen and (min-width: 32.5em) {
+
+    button {
+        display: none;
+    }
+
+    nav ul.hide,
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    header {
+        background-color: #f0f6f6;
+        display: flex;
+
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-left: 30px;
+        margin-right: 1vw;
+
+
+    }
+
+    .small-view {
+        margin-left: 85px;
+    }
+
+    .motto {
+        display: inline-block;
+        margin-right: 80px;
+        margin-top: 40px;
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    .weather-headline {
+        font-size: .99rem;
+    }
+
+
+    /*-----------         All of the middle of my webpage will go below       -----------*/
+
+
+    /*-----------         All of the images of my webpage will go below       -----------*/
+    .hpioneer {
+        max-width: 20%;
+    }
+
+    /*-----------         tours.html                                          -----------*/
+    /*tours*/
+    .first,
+    .second,
+    .third,
+    .four,
+    .jeepTour {
+        padding: 70px;
+        margin: 35px;
+
+    }
+
+    .howTo,
+    .call {
+        text-align: center;
+    }
+
+    /*-----------         All of the footer of my webpage will go below       -----------*/
+
+    /*-----------                      end medium                             -----------*/
+}

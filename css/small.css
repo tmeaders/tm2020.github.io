@@ -1,0 +1,410 @@
+/*----------------------------------------------------------------------------* 
+ *               All of my the top of my webpage or header css will go below  *
+ *--------------------------------------------------------------- ------------*/
+
+/* ---------------------------------------------------------------------------*   
+ *                Prevent adjustments of font size after orientation          *
+ *                changes in IE on Windows Phone and in iOS.                  *
+ *  --------------------------------------------------------------------------*/
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+button {
+  margin: auto;
+  margin-right: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #555;
+}
+
+nav {
+
+  background-color: #00ced1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+nav ul {
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: #87cefa;
+  color: white;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+.motto {
+  display: none;
+}
+
+.logo img {
+  border-radius: 0px 10px;
+  background-color: #00ced1;
+  height: 8vh;
+  width: 12vw;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  padding-right: 1vw;
+}
+
+/*-------- All of my the middle of my webpage or main css will go below ------*/
+body {
+  max-width: 100%;
+  background-color: linen;
+  margin: auto;
+}
+
+main {
+  max-width: 1200px;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bolder;
+  border-bottom: 4px solid #bc8f8f;
+}
+
+.currentConditions {
+  border: 3px solid #bc8f8f;
+  text-align: center;
+  background-color: #00ced1;
+  color: black;
+
+
+}
+
+.today {
+  color: #191516;
+}
+
+p {
+  line-height: 2.5em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+  margin: 30px;
+}
+
+.hpioneer {
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 25px 25px;
+}
+
+.call-to-action {
+  width: 300px;
+  height: 160px;
+  border-radius: 50%;
+  border: 6px solid#bc8f8f;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #00ced1;
+
+}
+
+.action {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin-left: 2vw;
+  padding: 10px;
+  color: white;
+}
+
+.click {
+  color: white;
+}
+
+.weatherInfo {
+  border: 4px solid #bc8f8f;
+  background-color: #00ced1;
+  margin: 30px;
+}
+
+.weather-headline {
+  text-align: center;
+  font-size: .8rem;
+  background-color: #bc8f8f;
+  padding: 10px;
+  color: black;
+}
+
+.column {
+  border: 1px solid black;
+}
+
+.weatherCol {
+  column-count: 3;
+  column-gap: 0;
+
+}
+
+.col-head {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  background-color: #bc8f8f;
+  color: white;
+  font-size: 1.3rem;
+}
+
+#forecast1,
+#forecast2,
+#forecast3 {
+  font-size: 4vw;
+  margin-left: 3.25vw;
+}
+
+
+/* ------------ this area is to be used for all images ---------------------- */
+img {
+  max-width: 100%;
+}
+
+.large {
+  display: none;
+}
+
+.small-view {
+  padding: 35px;
+
+}
+
+/*------------------------            tours.html       -------------------------*/
+.puntaSur,
+.sunset,
+.lighthouse,
+.snorkeling {
+  padding: 30px;
+}
+
+/*------------------------            contact.html       -------------------------*/
+.howTo,
+.call,
+.review {
+  padding: 20px;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #0b5351;
+  border-radius: 10px;
+  padding: .5rem 2%;
+
+  max-width: 100%;
+}
+
+form legend {
+  color: black;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-family: 'Roboto', sans-serif;
+  ;
+  font-size: 20px;
+
+
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #0b5351;
+  font-size: 15px;
+}
+
+form label.top input,
+form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 30%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form input.submitButn {
+  border: none;
+  background-color: #0b5351;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  max-width: 100%;
+
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+
+/*------------------------            reseverations.html       -------------------------*/
+.container {
+  width: 70%;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+
+.flexForm,
+.reserve-list {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+
+
+
+}
+
+fieldset {
+  margin: 0 auto;
+}
+
+.flexForm {
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.jeepReserve {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.terms {
+  text-align: center;
+}
+
+span {
+  color: black;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: #87cefa;
+  color: white;
+  font-weight: bolder;
+}
+
+iframe {
+  border: 0;
+  max-width: 100%;
+  padding: 20px;
+}
+
+
+.scooterA,
+.scooterB,
+.scooterC,
+.scooterD,
+.scooterE,
+.scooterF {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.rentalpics {
+  padding: 30px;
+  max-width: 80%;
+}
+
+.jeepReserve {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/*------------------------            soicial media       -------------------------*/
+.contact {
+  text-align: center;
+}
+
+.smedia {
+  width: 50px;
+  height: 50px;
+
+}
+
+/*----- All of my the bottom of my webpage or footer css will go below --------*/
+footer {
+  background-color: #00ced1;
+  font-weight: bolder;
+ }
+
+/*-----           Clearfix: Force an Element not to collapse              -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*------------------                   end of small           --------------------*/

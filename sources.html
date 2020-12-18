@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SCOOTS vaction rentals website">
+    <title>Scoots</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+        <picture class="logo">
+            <img src="images/scootslogo.jpg" alt="scoots logo" width="300">
+        </picture>
+        <section class="motto">
+            <h1 class="explore">Don't wait for the adventure to find you</h1>
+        </section>
+        <button onclick="toggleMenu();"> &#9776; </button>
+    </header>
+
+    <nav class="clearfix">
+
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h2>Images and JSON resources</h2>
+    <p><span><a href="https://gist.github.com/danrovito/977bcb97c9c2dfd3398a">Country drop down list from Dan Rovito
+    </a></span></p>
+    <p><span><a href="https://www.pexels.com">All images taken from pexels.com</a></span></p>
+    
+</main>
+    <footer>
+        <p class="year">
+            &copy; <span id="year"></span> | <span id="lastupdate"></span> | <span><a
+                    href="https://www.openweathermap.org">
+                    Weather Provided by openweathermap.org</a></span> | <span><a href="sources.html">Sources</a></span>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SCOOTS vaction rentals website">
+    <title>Scoots</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+        <picture class="logo">
+            <img src="images/scootslogo.jpg" alt="scoots logo" width="300">
+        </picture>
+        <section class="motto">
+            <h1 class="explore">Don't wait for the adventure to find you</h1>
+        </section>
+        <button onclick="toggleMenu();"> &#9776; </button>
+    </header>
+
+    <nav class="clearfix">
+
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a> </li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <main class="content">
+        <h2 class="explore">Come explore on wheels!</h2>
+        <section class="small-view">
+            <picture class="banner">
+                <source media="(min-width:375px)" srcset="images/home-hdio.jpg">
+                <source media="(min-width:650px)" srcset="images/home-hdio">
+                <img src="images/home-hdio.jpg" alt="honda dio">
+            </picture>
+        </section>
+        <section class="large">
+            <picture>
+                <img src="images/home-jeep.jpg" alt="jeep">
+            </picture>
+            <picture>
+                <img src="images/home-christmas.jpg" alt="snowman">
+            </picture>
+            <picture>
+                <img src="images/home-hdio.jpg" alt="honda dio">
+            </picture>
+        </section>
+        <section class="currentConditions">
+            <h3 class="today">Current Conditions</h3>
+            <p class="cc">Currently: <span id="current"></span></p>
+            <p class="cc">Current Temperature: <span id="currentTemp"></span>°F</p>
+            <p class="cc">Humidity: <span id="humidity"></span>%</p>
+        </section>
+
+        <section class="info">
+            <picture>
+                <img class="hpioneer" src="images/home-hpioneer.jpg" alt="honda pioneer">
+            </picture>
+            <p>
+                Scoots vaction rentals are located on the Island of Cozumel, Mexico in the warm Carribean Sea.
+                We welcome vacationers, walk-in tourists, enthusiasts, and cruise-based touring groups.
+                We provide easy to rent motor scooters, jeeps, and side-by-sides ATVs. There are two rental
+                locations conviently located on the Island. You can find us at the Playa del Carmen-Cozumel
+                Ferry dock, or the Terminal Puerta Maya cruise ship destination.
+            </p>
+
+        </section>
+
+        <div class="call-to-action">
+            <p class="action">Reserve your rental today!</p>
+            <span><a class="click" href="reservations.html">Click here for reservations</a></span>
+
+        </div>
+        <section class="weatherInfo">
+            <h3 class="weather-headline">Never be surprised by the weather</h3>
+            <div class="weatherCol">
+                <div class="column">
+                    <span class="col-head" id="weather1"></span>
+                    <span class="data" id="forecast1"></span>
+                    <img class="desc" id="icon1" src="" alt="">
+
+                </div>
+                <div class="column">
+                    <span class="col-head" id="weather2"></span>
+                    <span class="data" id="forecast2"></span>
+                    <img class="desc" id="icon2" src="" alt="">
+
+                </div>
+                <div class="column">
+                    <span class="col-head" id="weather3"></span>
+                    <span class="data" id="forecast3"></span>
+                    <img class="desc" id="icon3" src="" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div>
+                <h3>Contact Us</h3>
+                <p class="ctact">Email: bookit@scootsmotor.com</p>
+                <p class="ctact">Call: 52 (987) 555-1212</p>
+                <p class="ctact">Follow us on social</p>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100002451197113"> <img class="smedia"
+                        src="images/fb.png" alt="facebook"></a>
+                <a target="_blank" href="https://twitter.com/?lang=en"><img class="smedia" src="images/tw.png"
+                        alt="twitter"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img class="smedia" src="images/ig.png"
+                        alt="instagram"></a>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p class="year">
+            &copy; <span id="year"></span> | <span id="lastupdate"></span> | <span><a
+                    href="https://www.openweathermap.org">
+                    Weather Provided by openweathermap.org</a></span> | <span><a href="sources.html">Sources</a></span>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+</body>
+
+</html>
